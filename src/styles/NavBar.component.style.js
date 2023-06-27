@@ -21,7 +21,7 @@ export default StyleSheet.create({
     },
     navItemText: {
       fontSize: 12,
-      color: '#333',
+      color: 'black'
     },
     activeNavItemText: {
       color: 'rgb(255,0,0)',

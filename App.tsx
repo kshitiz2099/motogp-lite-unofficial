@@ -6,20 +6,17 @@
  */
 
 import React from 'react';
-import {
-  Text,
-  View,
-} from 'react-native';
-
 import {NavigationContainer} from '@react-navigation/native';
 import NavBar from './src/components/NavBar';
 import Router from './src/router/Router';
+import TabRouter from './src/router/TabRouterj';
 
 function App(): JSX.Element {
   return(
       <NavigationContainer>
-        <Router/>
-        <NavBar/>
+        {/* <Router/> */}
+        {/* <NavBar/> */}
+        <TabRouter/>
       </NavigationContainer>
     )
 }
