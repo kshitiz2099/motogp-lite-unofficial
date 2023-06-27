@@ -3,9 +3,8 @@ import React from "react";
 import WeekendSchedule from "../screens/WeekendSchedule";
 import Racing from "../screens/Racing";
 import Standings from "../screens/Standings";
-import TabButton from "../components/TabButton";
 import { View, Text } from "react-native";
-import styles from './../styles/NavBar.component.style';
+import styles from '../styles/NavBar.component.style';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 
 export default function TabRouter(){

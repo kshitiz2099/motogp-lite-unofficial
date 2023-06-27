@@ -1,4 +1,4 @@
-const riderStandings = () =>{
+const getRiderStandings = () =>{
     const res = [
         {
           "classification_id": "04523199-ea58-4996-9a8e-8430266ee0e4",
@@ -1552,7 +1552,21 @@ const riderStandings = () =>{
         }
       ]
 
-    return res;
+    const riderStandings = [];
+    res.forEach( rider =>{
+        const obj = {
+            'name': rider['classification_rider_full_name'],
+            'team': rider['classification_team_name'],
+            'constructor': rider['classification_constructor_name'],
+            'points': rider['classification_points_id']
+        }
+
+        riderStandings.push(obj);
+    })
+
+    riderStandings.sort((r1, r2) => r2.points - r1.points);
+
+    return riderStandings;
 }
 
-export riderStandings;
+export {getRiderStandings};
