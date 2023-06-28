@@ -10,9 +10,10 @@ export default function RiderCard({rider, position}){
                 <Text style={styles.positionText}>{position}</Text>
             </View>
 
+            <View style = {styles.vecticalDivider}></View>
             <View style={styles.contentContainer}>
                 <Text style={styles.riderName}>
-                    {rider.name}
+                    {rider.firstName} <Text style = {styles.bold}>{rider.lastName}</Text>
                 </Text>
 
                 <Text style={styles.teamName}>{rider.team}</Text>

@@ -18,7 +18,7 @@ export default function RiderStandings(){
 
     useEffect(()=>{
         fetchRiderStandings();
-        console.log(standings);
+        console.log("Populating...");
     }, [standings===null]);
 
     return(

@@ -16,7 +16,7 @@ export default function TabRouter(){
                 tabBarActiveTintColor: 'red',
                 tabBarInactiveTintColor: 'rgb(150,150,150)',
                 tabBarStyle: {height: "7%"},
-                headerStyle: {backgroundColor: 'red'},
+                headerStyle: {backgroundColor: 'red', elevation: 0},
                 headerTitleStyle: {color: 'white', fontWeight: 'bold'},
             }}>
 

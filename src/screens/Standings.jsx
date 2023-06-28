@@ -18,7 +18,9 @@ export default function Standings() {
                         fontSize: 15
                     },tabBarStyle: {
                         backgroundColor: "red",
-                        indicatorStyle: {backgroundColor: 'red'},
+                    },
+                    tabBarIndicatorStyle:{
+                        backgroundColor: 'white',
                     }
                 }}>
             <StandingsTab.Screen name="Riders" component={RiderStandings} />

@@ -18,7 +18,7 @@ export default StyleSheet.create({
         borderRadius: 10,
         paddingVertical: 6,
         paddingHorizontal: 12,
-        marginRight: 16,
+        // marginRight: 16,
     },
     positionText: {
         fontSize: 16,
@@ -50,4 +50,10 @@ export default StyleSheet.create({
         fontWeight: 'bold',
         color: '#333',
     },
+    vecticalDivider:{
+        width: 4,
+        backgroundColor: 'gray',
+        height: '100%',
+        marginHorizontal: 16
+    }
 })
