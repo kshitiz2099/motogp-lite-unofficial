@@ -4,7 +4,7 @@ import RiderStandings from '../components/Standings/RiderStandings';
 import TeamStandings from '../components/Standings/TeamStandings';
 import RaceResults from '../components/Standings/RaceResults';
 
-export default function Standings() {
+export default function StandingsRouter() {
     
     const StandingsTab = createMaterialTopTabNavigator();
 
